@@ -1,0 +1,691 @@
+
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+>
+
+
+{% if site.google_scholar_stats_use_cdn %}
+{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
+{% else %}
+{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
+{% endif %}
+{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+
+<span class='anchor' id='about-me'></span>
+
+
+
+# 💡 About Me
+
+Hi! This is Qianchi Zhang, a second-year PhD student at **School of Artificial Intelligence, Beihang University**. My research focuses on **LLM Hallucinations**, **LLM Reasoning**, **Reinforcement Learning**, and **Trustworthy Retrieval-Augmented Generation**.
+
+
+
+<span class="anchor" id="news"></span>
+
+
+# 🔥 News
+
+<style>
+.news-scroll { max-height: 280px; overflow-y: auto; border: 1px solid #e8e8e8; border-radius: 8px; padding: 0.55rem 0.9rem 0.55rem 0.5rem; background: #fafafa; }
+.news-scroll ul { margin: 0; padding-left: 1.25em; }
+.news-scroll li { margin: 0.55em 0; line-height: 1.55; }
+.news-scroll li:first-child { margin-top: 0.25em; }
+.news-scroll li:last-child { margin-bottom: 0.25em; }
+</style>
+<div class="news-scroll compact-section">
+<ul>
+<li><em>2026.10</em>: 🚀🚀 Excited to share our new preprint, <a href="https://arxiv.org/pdf/2610.35142v1" style="color:#3a6ea5; text-decoration: underline;">CalibraRL</a>!</li>
+<li><em>2026.10</em>: 🎉🎉 Honored to receive the National Scholarship for PhD Students (Top 2%)! </li>
+<li><em>2026.04</em>: 🎉🎉 One first-author paper is accepted to <a href="https://2026.aclweb.org/" style="color:#3a6ea5; text-decoration: underline;">ACL 2026 Main</a>.</li>
+<li><em>2026.01</em>: 🎉🎉 One first-author paper is accepted to <a href="https://www2026.thewebconf.org/" style="color:#3a6ea5; text-decoration: underline;">WWW 2026</a>.</li>
+
+</ul>
+</div>
+
+
+<span class="anchor" id="publications"></span>
+
+# 📝 Selected Publications
+
+<sup>**\***</sup> Equal Contribution; <sup>**†**</sup> Corresponding Author; AR=Acceptance Rate
+
+
+<!-- Stable-RAG -->
+<ul style="padding-left:22px; margin-bottom:20px;">
+  <li style="padding-left:2px;">
+    <!-- Title -->
+    <a
+      href="https://aclanthology.org/2026.acl-long.1188.pdf"
+      target="_blank"
+      style="
+        text-decoration:none;
+        color:#3a6ea5;
+        font-weight:bold;
+      ">
+      Stable-RAG: Mitigating Retrieval-Permutation-Induced Hallucinations in Retrieval-Augmented Generation.
+    </a>
+    <!-- Authors -->
+    <div
+      class="fs-14 lh-15"
+      style="
+        margin-top:8px;
+        display:flex;
+        align-items:center;
+      "
+    >
+      <i
+        class="fa fa-user"
+        title="Authors"
+        style="
+          width:16px;
+          margin-right:4px;
+          color:#666;
+          text-align:center;
+          flex-shrink:0;
+        "
+      ></i>
+      <span>
+        <strong><u>Qianchi Zhang</u></strong>,
+        Hainan Zhang<sup>†</sup>,
+        Liang Pang,
+        Hongwei Zheng,
+        and Zhiming Zheng.
+      </span>
+    </div>
+    <!-- Venue -->
+    <div
+      class="fs-14 lh-15"
+      style="
+        margin-top:3px;
+        display:flex;
+        align-items:center;
+      "
+    >
+      <i
+        class="fa fa-bank"
+        title="Venue"
+        style="
+          width:16px;
+          margin-right:4px;
+          color:#666;
+          text-align:center;
+          flex-shrink:0;
+        "
+      ></i>
+      <span>
+        <!-- <span style="color:#000000;"> -->
+        <span>
+          The 64th Annual Meeting of the Association for Computational Linguistics.
+        </span>
+        <span style="color:#C62828; font-weight:600;">
+          (ACL 2026 Main, CCF A) ｜ AR=18.9%
+        </span>
+      </span>
+    </div>
+  </li>
+</ul>
+
+
+<!-- CompSelect -->
+<ul style="padding-left:22px; margin-bottom:20px;">
+  <li style="padding-left:2px;">
+    <!-- Title -->
+    <a
+      href="https://dl.acm.org/doi/epdf/10.1145/3774904.3792158"
+      target="_blank"
+      style="
+        text-decoration:none;
+        color:#3a6ea5;
+        font-weight:bold;
+      "
+    >
+      Less is More: Compact Clue Selection for Efficient Retrieval-Augmented Generation Reasoning.
+    </a>
+    <!-- Authors -->
+    <div
+      class="fs-14 lh-15"
+      style="
+        margin-top:8px;
+        display:flex;
+        align-items:center;
+      "
+    >
+      <i
+        class="fa fa-user"
+        title="Authors"
+        style="
+          width:16px;
+          margin-right:4px;
+          color:#666;
+          text-align:center;
+          flex-shrink:0;
+        "
+      ></i>
+      <span>
+        <strong><u>Qianchi Zhang</u></strong>,
+        Hainan Zhang<sup>†</sup>,
+        Liang Pang,
+        Yongxin Tong,
+        Hongwei Zheng,
+        and Zhiming Zheng.
+      </span>
+    </div>
+    <!-- Venue -->
+    <div
+      class="fs-14 lh-15"
+      style="
+        margin-top:3px;
+        display:flex;
+        align-items:center;
+      "
+    >
+      <i
+        class="fa fa-bank"
+        title="Venue"
+        style="
+          width:16px;
+          margin-right:4px;
+          color:#666;
+          text-align:center;
+          flex-shrink:0;
+        "
+      ></i>
+      <span>
+         <span>
+          The ACM Web Conference 2026.
+        </span>
+        <span style="color:#C62828; font-weight:600;">
+          (WWW 2026, CCF A) ｜ AR=20.1%
+        </span>
+      </span>
+    </div>
+    <!-- Resources
+    <div
+      class="fs-14 lh-15"
+      style="
+        margin-top:5px;
+        display:flex;
+        align-items:center;
+        flex-wrap:wrap;
+        column-gap:6px;
+        row-gap:4px;
+      "
+    >
+      <i
+        class="fa fa-link"
+        title="Resources"
+        style="
+          width:16px;
+          margin-right:4px;
+          color:#666;
+          text-align:center;
+          flex-shrink:0;
+        "
+      ></i> -->
+      <!-- GitHub -->
+      <!-- <a
+        href="https://github.com/zqc1023/CompSelect"
+        target="_blank"
+        style="
+          display:inline-flex;
+          align-items:center;
+          text-decoration:none;
+        "
+      >
+        <img
+          alt="GitHub Repo stars"
+          src="https://img.shields.io/github/stars/zqc1023/CompSelect?style=flat-square&logo=github&logoColor=black&labelColor=white&color=white&label=Stars&cacheSeconds=10"
+          style="
+            display:block;
+            height:18px;
+            border:1px solid #ccc;
+            border-radius:4px;
+          "
+        />
+      </a> -->
+      <!-- Google Scholar -->
+      <!-- <a
+        href="https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=31051737733490796,13318791537714013165"
+        target="_blank"
+        style="
+          display:inline-flex;
+          align-items:center;
+          text-decoration:none;
+        "
+      >
+        <img
+          alt="Google Scholar Citations"
+          src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzqc1023%2Fzqc1023.github.io%2Fgoogle-scholar-stats%2Fgs_data.json&query=%24.publications.%5B%27tmmwj04AAAAJ:M05iB0D1s5AC%27%5D.num_citations&label=Citations&color=white&logo=Google%20Scholar&style=flat-square&labelColor=white"
+          style="
+            display:block;
+            height:18px;
+            border:1px solid #ccc;
+            border-radius:4px;
+          "
+        />
+      </a> -->
+      <!-- PDF -->
+      <!-- <a
+        href="https://dl.acm.org/doi/pdf/10.1145/3774904.3792158"
+        target="_blank"
+        style="
+          display:inline-flex;
+          align-items:center;
+          height:18px;
+          padding:0 6px;
+          box-sizing:border-box;
+          border:1px solid #C62828;
+          border-radius:4px;
+          background-color:#C62828;
+          color:#ffffff;
+          text-decoration:none;
+          font-size:11px;
+          line-height:18px;
+          font-weight:600;
+        "
+      >
+        <i
+          class="fa fa-file-pdf-o"
+          style="
+            margin-right:4px;
+            font-size:11px;
+          "
+        ></i>
+        PDF
+      </a>
+    </div> -->
+
+  </li>
+</ul>
+
+
+<!-- AdaComp -->
+<ul style="padding-left:22px; margin-bottom:20px;">
+  <li style="padding-left:2px;">
+    <!-- Title -->
+    <a
+      href="https://arxiv.org/pdf/2409.01579"
+      target="_blank"
+      style="
+        text-decoration:none;
+        color:#3a6ea5;
+        font-weight:bold;
+      "
+    >
+      AdaComp: Extractive Context Compression with Adaptive Predictor for Retrieval-Augmented Large Language Models.
+    </a>
+    <!-- Authors -->
+    <div
+      class="fs-14 lh-15"
+      style="
+        margin-top:8px;
+        display:flex;
+        align-items:center;
+      "
+    >
+      <i
+        class="fa fa-user"
+        title="Authors"
+        style="
+          width:16px;
+          margin-right:4px;
+          color:#666;
+          text-align:center;
+          flex-shrink:0;
+        "
+      ></i>
+      <span>
+        <strong><u>Qianchi Zhang</u></strong>,
+        Hainan Zhang<sup>†</sup>,
+        Liang Pang,
+        Hongwei Zheng,
+        and Zhiming Zheng.
+      </span>
+    </div>
+    <!-- Venue -->
+    <div
+      class="fs-14 lh-15"
+      style="
+        margin-top:3px;
+        display:flex;
+        align-items:center;
+      "
+    >
+      <i
+        class="fa fa-bank"
+        title="Venue"
+        style="
+          width:16px;
+          margin-right:4px;
+          color:#666;
+          text-align:center;
+          flex-shrink:0;
+        "
+      ></i>
+      <span>
+        <span>
+          The 19th International Conference on Knowledge Science, Engineering and Management.
+        </span>
+        <span style="color:#C62828; font-weight:600;">
+          (KSEM 2026, CCF C)
+        </span>
+      </span>
+    </div>
+  </li>
+</ul>
+
+<span class="anchor" id="awards"></span>
+
+# 📄 Preprints
+
+<!-- CalibraRL -->
+<ul style="padding-left:22px; margin-bottom:20px;">
+  <li style="padding-left:2px;">
+    <!-- Title -->
+    <a
+      href="https://arxiv.org/pdf/2610.35142v1"
+      target="_blank"
+      style="
+        text-decoration:none;
+        color:#3a6ea5;
+        font-weight:bold;
+      "
+    >
+      CalibraRL: Confidence-Calibrated Reinforcement Learning for Mitigating Hallucinations in RAG.
+    </a>
+    <!-- Authors -->
+    <div
+      class="fs-14 lh-15"
+      style="
+        margin-top:8px;
+        display:flex;
+        align-items:center;
+      "
+    >
+      <i
+        class="fa fa-user"
+        title="Authors"
+        style="
+          width:16px;
+          margin-right:4px;
+          color:#666;
+          text-align:center;
+          flex-shrink:0;
+        "
+      ></i>
+      <span>
+        <strong><u>Qianchi Zhang</u></strong>,
+        Hainan Zhang<sup>†</sup>,
+        Liang Pang,
+        Hongwei Zheng,
+        and Zhiming Zheng.
+      </span>
+    </div>
+    <!-- Venue -->
+    <!-- <div
+      class="fs-14 lh-15"
+      style="
+        margin-top:3px;
+        display:flex;
+        align-items:center;
+      "
+    >
+      <i
+        class="fa fa-bank"
+        title="Venue"
+        style="
+          width:16px;
+          margin-right:4px;
+          color:#666;
+          text-align:center;
+          flex-shrink:0;
+        "
+      ></i>
+      <span>
+        <span>
+          The 19th International Conference on Knowledge Science, Engineering and Management.
+        </span>
+        <span style="color:#C62828; font-weight:600;">
+          (KSEM 2026, CCF C)
+        </span>
+      </span>
+    </div> -->
+    <!-- Resources -->
+    <!-- <div
+      class="fs-14 lh-15"
+      style="
+        margin-top:5px;
+        display:flex;
+        align-items:center;
+        flex-wrap:wrap;
+        column-gap:6px;
+        row-gap:4px;
+      "
+    > -->
+      <!-- <i
+        class="fa fa-link"
+        title="Resources"
+        style="
+          width:16px;
+          margin-right:4px;
+          color:#666;
+          text-align:center;
+          flex-shrink:0;
+        "
+      ></i>
+      PDF
+      <a
+        href="https://arxiv.org/pdf/2409.01579"
+        target="_blank"
+        style="
+          display:inline-flex;
+          align-items:center;
+          height:18px;
+          padding:0 6px;
+          box-sizing:border-box;
+          border:1px solid #C62828;
+          border-radius:4px;
+          background-color:#C62828;
+          color:#ffffff;
+          text-decoration:none;
+          font-size:11px;
+          line-height:18px;
+          font-weight:600;
+        "
+      >
+        <i
+          class="fa fa-file-pdf-o"
+          style="
+            margin-right:4px;
+            font-size:11px;
+          "
+        ></i>
+        PDF
+      </a>
+    </div> -->
+
+  </li>
+</ul>
+
+
+<!--  -->
+<ul style="padding-left:22px; margin-bottom:20px;">
+  <li style="padding-left:2px;">
+    <!-- Title -->
+    <a
+      href=""
+      target="_blank"
+      style="
+        text-decoration:none;
+        color:#3a6ea5;
+        font-weight:bold;
+      "
+    >
+     Replacing Parameters with Preferences: Federated Alignment of Heterogeneous Vision-Language Models.
+    </a>
+    <!-- Authors -->
+    <div
+      class="fs-14 lh-15"
+      style="
+        margin-top:8px;
+        display:flex;
+        align-items:center;
+      "
+    >
+      <i
+        class="fa fa-user"
+        title="Authors"
+        style="
+          width:16px;
+          margin-right:4px;
+          color:#666;
+          text-align:center;
+          flex-shrink:0;
+        "
+      ></i>
+      <span>
+      Shule Lu, Hainan Zhang, Yujing Wang, <strong><u>Qianchi Zhang</u></strong>, Xiaoshan Yang, Hongwei Zheng, Yongxin Tong, and Zhiming Zheng.
+      </span>
+    </div>
+    <!-- Venue -->
+    <!-- <div
+      class="fs-14 lh-15"
+      style="
+        margin-top:3px;
+        display:flex;
+        align-items:center;
+      "
+    >
+      <i
+        class="fa fa-bank"
+        title="Venue"
+        style="
+          width:16px;
+          margin-right:4px;
+          color:#666;
+          text-align:center;
+          flex-shrink:0;
+        "
+      ></i>
+      <span>
+        <span>
+          The 19th International Conference on Knowledge Science, Engineering and Management.
+        </span>
+        <span style="color:#C62828; font-weight:600;">
+          (KSEM 2026, CCF C)
+        </span>
+      </span>
+    </div> -->
+    <!-- Resources -->
+    <!-- <div
+      class="fs-14 lh-15"
+      style="
+        margin-top:5px;
+        display:flex;
+        align-items:center;
+        flex-wrap:wrap;
+        column-gap:6px;
+        row-gap:4px;
+      "
+    > -->
+      <!-- <i
+        class="fa fa-link"
+        title="Resources"
+        style="
+          width:16px;
+          margin-right:4px;
+          color:#666;
+          text-align:center;
+          flex-shrink:0;
+        "
+      ></i>
+      PDF
+      <a
+        href="https://arxiv.org/pdf/2409.01579"
+        target="_blank"
+        style="
+          display:inline-flex;
+          align-items:center;
+          height:18px;
+          padding:0 6px;
+          box-sizing:border-box;
+          border:1px solid #C62828;
+          border-radius:4px;
+          background-color:#C62828;
+          color:#ffffff;
+          text-decoration:none;
+          font-size:11px;
+          line-height:18px;
+          font-weight:600;
+        "
+      >
+        <i
+          class="fa fa-file-pdf-o"
+          style="
+            margin-right:4px;
+            font-size:11px;
+          "
+        ></i>
+        PDF
+      </a>
+    </div> -->
+
+  </li>
+</ul>
+
+<span class="anchor" id="awards"></span>
+
+# 🎖 Honors and Awards
+- *2026*: National Scholarship, Ministry of Education of China.（博士研究生国家奖学金）
+- *2026*: Outstanding Graduate Student, Beihang University.
+- *2026*: YSSNLP 2026 Spotlight Poster, Chinese Information Processing Society of China.
+- *2025*: Second Prize Outstanding Student Scholarship, Beihang University.
+- *2023*: Outstanding Graduate, Beijing Forestry University.
+- *2022*: Second-Class Scholarship for Undergraduate Students, Beijing Forestry University.
+- *2021*: First-Class Scholarship for Undergraduate Students, Beijing Forestry University.
+- *2020-2022*: China National Encouragement Scholarship.
+
+
+
+<span class="anchor" id="talks"></span>
+
+# 🎤 Invited Talks
+
+- *2026.07*: “Stable-RAG: Mitigating Retrieval-Permutation-Induced Hallucinations in Retrieval-Augmented Generation”, YSSNLP 2026 Poster.
+
+- *2026.03*: “Stable-RAG: Mitigating Retrieval-Permutation-Induced Hallucinations in Retrieval-Augmented Generation”, CCIR PhD Forum.
+
+
+
+<span class="anchor" id="services"></span>
+
+# 🧑‍⚖️ Academic Services
+
+- Conference Reviewer: ACL Rolling Review (ARR), WWW, AAAI, EMNLP
+- Journal Reviewer: 
+  - IEEE Transactions on Knowledge and Data Engineering (TKDE)
+  - IEEE Transactions on Multimedia (TMM)
+  - IEEE Transactions on Audio, Speech, and Language Processing（TASLP）
+  - IEEE Transactions on Artificial Intelligence (TAI)
+ 
+
+
+
+
+<span class="anchor" id="educations"></span>
+
+# 📖 Educations
+- *2025.9 – Present*, Ph.D. Student, School of Artificial Intelligence, Beihang University.
+  
+- *2023.9 – 2025.6*, M.S. Student, School of Artificial Intelligence, Beihang University.
+  
+- *2019.9 – 2023.6*, B.S. Student, School of Information Science and Technology, Beijing Forestry University.
+
+
+
+<span class="anchor" id="internships"></span>
+
+# 💻 Internships
+- *2022.10 - 2023.01*, Zhihu. Beijing, China.
