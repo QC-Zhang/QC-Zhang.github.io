@@ -8,6 +8,9 @@ main:
 
   - title: "Selected Publications"
     url: "/#publications"
+  
+  - title: "Preprints"
+    url: "/#preprints"
 
   - title: "Honors and Awards"
     url: "/#awards"

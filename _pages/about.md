@@ -376,7 +376,7 @@ Hi! This is Qianchi Zhang, a second-year PhD student at **School of Artificial I
   </li>
 </ul>
 
-<span class="anchor" id="awards"></span>
+<span class="anchor" id="preprints"></span>
 
 # 📄 Preprints
 
@@ -638,6 +638,7 @@ Hi! This is Qianchi Zhang, a second-year PhD student at **School of Artificial I
 <span class="anchor" id="awards"></span>
 
 # 🎖 Honors and Awards
+- *2026*: First Prize Outstanding Student Scholarship, Beihang University.
 - *2026*: National Scholarship, Ministry of Education of China.（博士研究生国家奖学金）
 - *2026*: Outstanding Graduate Student, Beihang University.
 - *2026*: YSSNLP 2026 Spotlight Poster, Chinese Information Processing Society of China.
@@ -669,7 +670,7 @@ Hi! This is Qianchi Zhang, a second-year PhD student at **School of Artificial I
   - IEEE Transactions on Multimedia (TMM)
   - IEEE Transactions on Audio, Speech, and Language Processing（TASLP）
   - IEEE Transactions on Artificial Intelligence (TAI)
- 
+
 
 
 
