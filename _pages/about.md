@@ -18,7 +18,7 @@
 
 # 💡 About Me
 
-Hi! This is Qianchi Zhang, a second-year PhD student at **School of Artificial Intelligence, Beihang University**. My research focuses on **LLM Hallucinations**, **LLM Reasoning**, **Reinforcement Learning**, and **Trustworthy Retrieval-Augmented Generation**.
+Hi! I am Qianchi Zhang, a second-year PhD student at the **School of Artificial Intelligence, Beihang University**. My research focuses on **Trustworthy Large Language Models (LLMs)**, with particular interests in **LLM Hallucinations**, **LLM Reasoning**, **LLM Post-Training**, and **Retrieval-Augmented Generation**.
 
 
 
@@ -37,10 +37,9 @@ Hi! This is Qianchi Zhang, a second-year PhD student at **School of Artificial I
 <div class="news-scroll compact-section">
 <ul>
 <li><em>2026.10</em>: 🚀🚀 Excited to share our new preprint, <a href="https://arxiv.org/pdf/2610.35142v1" style="color:#3a6ea5; text-decoration: underline;">CalibraRL</a>!</li>
-<li><em>2026.10</em>: 🎉🎉 Honored to receive the National Scholarship for PhD Students (Top 2%)! </li>
-<li><em>2026.04</em>: 🎉🎉 One first-author paper is accepted to <a href="https://2026.aclweb.org/" style="color:#3a6ea5; text-decoration: underline;">ACL 2026 Main</a>.</li>
-<li><em>2026.01</em>: 🎉🎉 One first-author paper is accepted to <a href="https://www2026.thewebconf.org/" style="color:#3a6ea5; text-decoration: underline;">WWW 2026</a>.</li>
-
+<li><em>2026.10</em>: 🎉🎉 Honored to receive the National Scholarship for PhD Students (top 2%)!</li>
+<li><em>2026.04</em>: 🎉🎉 My first-author paper has been accepted to <a href="https://2026.aclweb.org/" style="color:#3a6ea5; text-decoration: underline;">ACL 2026 Main</a>!</li>
+<li><em>2026.01</em>: 🎉🎉 My first-author paper has been accepted to <a href="https://www2026.thewebconf.org/" style="color:#3a6ea5; text-decoration: underline;">WWW 2026</a>!</li>
 </ul>
 </div>
 
@@ -637,56 +636,50 @@ Hi! This is Qianchi Zhang, a second-year PhD student at **School of Artificial I
 
 <span class="anchor" id="awards"></span>
 
-# 🎖 Honors and Awards
-- *2026*: First Prize Outstanding Student Scholarship, Beihang University.
-- *2026*: National Scholarship, Ministry of Education of China.（博士研究生国家奖学金）
-- *2026*: Outstanding Graduate Student, Beihang University.
-- *2026*: YSSNLP 2026 Spotlight Poster, Chinese Information Processing Society of China.
-- *2025*: Second Prize Outstanding Student Scholarship, Beihang University.
-- *2023*: Outstanding Graduate, Beijing Forestry University.
-- *2022*: Second-Class Scholarship for Undergraduate Students, Beijing Forestry University.
-- *2021*: First-Class Scholarship for Undergraduate Students, Beijing Forestry University.
-- *2020-2022*: China National Encouragement Scholarship.
+# 🎖 Selected Honors and Awards
+- *2026*: National Scholarship for PhD Students, Ministry of Education of China (博士研究生国家奖学金)
+- *2026*: First-Class Outstanding Student Scholarship, Beihang University
+- *2026*: YSSNLP 2026 Spotlight Poster, Chinese Information Processing Society of China
+- *2026*: 2025–2026 Academic Year Merit Student, Beihang University (2025–2026学年三好学生)
+- *2025*: Second-Class Outstanding Student Scholarship, Beihang University
 
 
 
 <span class="anchor" id="talks"></span>
 
-# 🎤 Invited Talks
+# 🎤 Talks and Presentations
 
-- *2026.07*: “Stable-RAG: Mitigating Retrieval-Permutation-Induced Hallucinations in Retrieval-Augmented Generation”, YSSNLP 2026 Poster.
+- *2026.07*: “Stable-RAG: Mitigating Retrieval-Permutation-Induced Hallucinations in Retrieval-Augmented Generation”, YSSNLP 2026 (Poster Presentation)
 
-- *2026.03*: “Stable-RAG: Mitigating Retrieval-Permutation-Induced Hallucinations in Retrieval-Augmented Generation”, CCIR PhD Forum.
+- *2026.03*: “Stable-RAG: Mitigating Retrieval-Permutation-Induced Hallucinations in Retrieval-Augmented Generation”, CCIR PhD Forum
 
 
 
 <span class="anchor" id="services"></span>
 
-# 🧑‍⚖️ Academic Services
+# 🧑‍⚖️ Academic Service
 
-- Conference Reviewer: ACL Rolling Review (ARR), WWW, AAAI, EMNLP
-- Journal Reviewer: 
+- **Conference Reviewer:** ACL Rolling Review (ARR), ICLR, WWW, AAAI, EMNLP
+- **Journal Reviewer:**
   - IEEE Transactions on Knowledge and Data Engineering (TKDE)
   - IEEE Transactions on Multimedia (TMM)
-  - IEEE Transactions on Audio, Speech, and Language Processing（TASLP）
-  - IEEE Transactions on Artificial Intelligence (TAI)
-
+  - IEEE Transactions on Audio, Speech, and Language Processing (TASLP)
 
 
 
 
 <span class="anchor" id="educations"></span>
 
-# 📖 Educations
+<!-- # 📖 Educations
 - *2025.9 – Present*, Ph.D. Student, School of Artificial Intelligence, Beihang University.
   
 - *2023.9 – 2025.6*, M.S. Student, School of Artificial Intelligence, Beihang University.
   
-- *2019.9 – 2023.6*, B.S. Student, School of Information Science and Technology, Beijing Forestry University.
+- *2019.9 – 2023.6*, B.S. Student, School of Information Science and Technology, Beijing Forestry University. -->
 
 
 
 <span class="anchor" id="internships"></span>
 
-# 💻 Internships
-- *2022.10 - 2023.01*, Zhihu. Beijing, China.
+# 💻 Experience
+- *2022.10 – 2023.01*: Data Analyst Intern, Zhihu, Beijing, China

@@ -12,19 +12,14 @@ main:
   - title: "Preprints"
     url: "/#preprints"
 
-  - title: "Honors and Awards"
+  - title: "Selected Honors and Awards"
     url: "/#awards"
 
-  - title: "Invited Talks"
+  - title: "Talks and Presentations"
     url: "/#talks"
 
-  - title: "Academic Services"
+  - title: "Academic Service"
     url: "/#services"
 
-  - title: "Educations"
-    url: "/#educations"
-
-  
-
-  - title: "Internships"
+  - title: "Experience"
     url: "/#internships"
